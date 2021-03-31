@@ -1,0 +1,24 @@
+{
+  "name": "node-mysql-api",
+  "version": "1.0.0",
+  "description": "Configuraciones Servicio api",
+  "main": "nodemon server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-asyncify": "^1.0.1",
+    "jshint": "^2.12.0",
+    "mysql2": "^2.2.5",
+    "nodemailer": "^6.5.0",
+    "nodemon": "^2.0.7",
+    "sequelize": "^6.6.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startBack": "nodemon server.js"
+  },
+  "author": "Byron Taco B2T2",
+  "license": "ISC"
+}

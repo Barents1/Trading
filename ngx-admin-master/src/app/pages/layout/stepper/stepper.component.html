@@ -1,0 +1,35 @@
+<div class="container text-center">
+<div *ngIf="barChartData">
+
+    <nb-flip-card>
+      <nb-card-front>
+        <nb-card status="danger">
+          <nb-card-header>{{nombreBolsa}}</nb-card-header>
+          <nb-card-body>
+            <div>
+              <div class="flex">
+                <div class="flex-item">
+                  <div style="display: block;">
+                    <div class="chart-wrapper">
+                    <canvas baseChart width="400" height="400" class="chart"
+                    [datasets]="barChartData"
+                    [labels]="barChartLabels"
+                    [options]="barChartOptions"
+                    [colors]="lineChartColors"
+                    [legend]="barChartLegend"
+                    [chartType]="barChartType"
+                    [plugins]="barChartPlugins"
+                    (chartHover)="chartHovered($event)"
+                    (chartClick)="chartClicked($event)"></canvas>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nb-card-body>
+          <h1> </h1>
+        </nb-card>
+      </nb-card-front>
+    </nb-flip-card>
+  </div>
+</div>

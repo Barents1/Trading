@@ -1,0 +1,11 @@
+{
+  "name": "node-mysql-trading",
+  "version": "1.0.0",
+  "description": "Datos para la conexion de mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Byron Taco",
+  "license": "ISC"
+}
