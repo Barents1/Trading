@@ -127,6 +127,7 @@ export class StepperComponent implements OnInit {
 
 
 
+
   ngOnInit() {
     console.log('inicio')
     // this.campaniaservice.obtenerBolsas().then(result => {
