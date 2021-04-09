@@ -19,12 +19,15 @@ api.use('*', async (req, res, next) => {
   })
 
 
-  api.get('/listaDataBolsa',  async (req, res, next) => {
+  api.get(`/listaDataBolsa/:bas_Id`,  async (req, res, next) => {
+    let id = req.params.bas_Id
+    const bas_Id = req.body
     let result
+   
   
-    console.log('api') 
+    console.log('api ' + id) 
     try { 
-      await DataBolsa.listaDataBolsa().then(result => {
+      await DataBolsa.listaDataBolsa(id).then(result => {
         res.send(result) 
       }).catch(e => {
         console.log(e)
@@ -37,5 +40,25 @@ api.use('*', async (req, res, next) => {
       return next(e)
     }
   })
+
+
+  // api.get('/listaDataBolsaall',  async (req, res, next) => {
+  //   let result
+  
+  //   console.log('api') 
+  //   try { 
+  //     await DataBolsa.listaDataBolsaall().then(result => {
+  //       res.send(result) 
+  //     }).catch(e => {
+  //       console.log(e)
+  //       res.status(406).send(e)
+  //     })
+  //     if (result) {
+  //       res.send(result)
+  //     }
+  //   } catch (e) {
+  //     return next(e)
+  //   }
+  // })
 
   module.exports = api

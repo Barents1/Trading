@@ -22,6 +22,7 @@ import { NewsPostPlaceholderComponent } from './infinite-list/news-post-placehol
 import { AccordionComponent } from './accordion/accordion.component';
 import { NewsService } from './news.service';
 import { ChartsModule } from 'ng2-charts';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   imports: [
     FormsModule,
@@ -36,7 +37,8 @@ import { ChartsModule } from 'ng2-charts';
     NbAccordionModule,
     NbUserModule,
     LayoutRoutingModule,
-    ChartsModule
+    ChartsModule,
+    HttpClientModule
   ],
   declarations: [
     LayoutComponent,

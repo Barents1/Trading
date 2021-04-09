@@ -77,6 +77,16 @@ module.exports = function setupDataBolsaModel (config){
             allowNull: false,
             field: 'bas_time'
         },
+        bol_Hora:{
+            type: Sequelize.TIME,
+            allowNull: false,
+            field: 'bol_hora'
+        },
+        bol_Fecha:{
+            type: Sequelize.DATE,
+            allowNull: false,
+            field: 'bol_fecha'
+        },
         
     },
     {

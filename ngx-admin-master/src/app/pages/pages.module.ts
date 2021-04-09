@@ -7,7 +7,7 @@ import { DashboardModule } from './dashboard/dashboard.module';
 import { ECommerceModule } from './e-commerce/e-commerce.module';
 import { PagesRoutingModule } from './pages-routing.module';
 import { MiscellaneousModule } from './miscellaneous/miscellaneous.module';
-import { ChartsModule } from 'ng2-charts';
+
 @NgModule({
   imports: [
     PagesRoutingModule,
@@ -16,7 +16,7 @@ import { ChartsModule } from 'ng2-charts';
     DashboardModule,
     ECommerceModule,
     MiscellaneousModule,
-    ChartsModule
+
   ],
   declarations: [
     PagesComponent,

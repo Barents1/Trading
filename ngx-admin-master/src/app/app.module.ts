@@ -20,11 +20,9 @@ import {
   NbToastrModule,
   NbWindowModule,
 } from '@nebular/theme';
-import { CampaniasComponent } from './components/shared/campanias/campanias.component';
-
 
 @NgModule({
-  declarations: [AppComponent, CampaniasComponent],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -41,7 +39,6 @@ import { CampaniasComponent } from './components/shared/campanias/campanias.comp
     }),
     CoreModule.forRoot(),
     ThemeModule.forRoot(),
-
   ],
   bootstrap: [AppComponent],
 })

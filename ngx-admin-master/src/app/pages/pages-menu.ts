@@ -2,14 +2,14 @@ import { NbMenuItem } from '@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
   {
-    title: 'HOME',
-    icon: 'shopping-cart-outline',
+    title: 'KIMOBILL',
+    icon: 'home-outline',
     link: '/pages/dashboard',
     home: true,
   },
   {
     title: 'BUY-SELL-ACTIONS',
-    icon: 'home-outline',
+    icon: 'shopping-cart-outline',
     link: '/pages/iot-dashboard',
   },
   {
@@ -43,77 +43,77 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
     ],
   },
-  {
-    title: 'Forms',
-    icon: 'edit-2-outline',
-    children: [
-      {
-        title: 'Form Inputs',
-        link: '/pages/forms/inputs',
-      },
-      {
-        title: 'Form Layouts',
-        link: '/pages/forms/layouts',
-      },
-      {
-        title: 'Buttons',
-        link: '/pages/forms/buttons',
-      },
-      {
-        title: 'Datepicker',
-        link: '/pages/forms/datepicker',
-      },
-    ],
-  },
-  {
-    title: 'UI Features',
-    icon: 'keypad-outline',
-    link: '/pages/ui-features',
-    children: [
-      {
-        title: 'Grid',
-        link: '/pages/ui-features/grid',
-      },
-      {
-        title: 'Icons',
-        link: '/pages/ui-features/icons',
-      },
-      {
-        title: 'Typography',
-        link: '/pages/ui-features/typography',
-      },
-      {
-        title: 'Animated Searches',
-        link: '/pages/ui-features/search-fields',
-      },
-    ],
-  },
-  {
-    title: 'Modal & Overlays',
-    icon: 'browser-outline',
-    children: [
-      {
-        title: 'Dialog',
-        link: '/pages/modal-overlays/dialog',
-      },
-      {
-        title: 'Window',
-        link: '/pages/modal-overlays/window',
-      },
-      {
-        title: 'Popover',
-        link: '/pages/modal-overlays/popover',
-      },
-      {
-        title: 'Toastr',
-        link: '/pages/modal-overlays/toastr',
-      },
-      {
-        title: 'Tooltip',
-        link: '/pages/modal-overlays/tooltip',
-      },
-    ],
-  },
+  // {
+  //   title: 'Forms',
+  //   icon: 'edit-2-outline',
+  //   children: [
+  //     {
+  //       title: 'Form Inputs',
+  //       link: '/pages/forms/inputs',
+  //     },
+  //     {
+  //       title: 'Form Layouts',
+  //       link: '/pages/forms/layouts',
+  //     },
+  //     {
+  //       title: 'Buttons',
+  //       link: '/pages/forms/buttons',
+  //     },
+  //     {
+  //       title: 'Datepicker',
+  //       link: '/pages/forms/datepicker',
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: 'UI Features',
+  //   icon: 'keypad-outline',
+  //   link: '/pages/ui-features',
+  //   children: [
+  //     {
+  //       title: 'Grid',
+  //       link: '/pages/ui-features/grid',
+  //     },
+  //     {
+  //       title: 'Icons',
+  //       link: '/pages/ui-features/icons',
+  //     },
+  //     {
+  //       title: 'Typography',
+  //       link: '/pages/ui-features/typography',
+  //     },
+  //     {
+  //       title: 'Animated Searches',
+  //       link: '/pages/ui-features/search-fields',
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: 'Modal & Overlays',
+  //   icon: 'browser-outline',
+  //   children: [
+  //     {
+  //       title: 'Dialog',
+  //       link: '/pages/modal-overlays/dialog',
+  //     },
+  //     {
+  //       title: 'Window',
+  //       link: '/pages/modal-overlays/window',
+  //     },
+  //     {
+  //       title: 'Popover',
+  //       link: '/pages/modal-overlays/popover',
+  //     },
+  //     {
+  //       title: 'Toastr',
+  //       link: '/pages/modal-overlays/toastr',
+  //     },
+  //     {
+  //       title: 'Tooltip',
+  //       link: '/pages/modal-overlays/tooltip',
+  //     },
+  //   ],
+  // },
   {
     title: 'Extra Components',
     icon: 'message-circle-outline',
@@ -144,28 +144,28 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
     ],
   },
-  {
-    title: 'Maps',
-    icon: 'map-outline',
-    children: [
-      {
-        title: 'Google Maps',
-        link: '/pages/maps/gmaps',
-      },
-      {
-        title: 'Leaflet Maps',
-        link: '/pages/maps/leaflet',
-      },
-      {
-        title: 'Bubble Maps',
-        link: '/pages/maps/bubble',
-      },
-      {
-        title: 'Search Maps',
-        link: '/pages/maps/searchmap',
-      },
-    ],
-  },
+  // {
+  //   title: 'Maps',
+  //   icon: 'map-outline',
+  //   children: [
+  //     {
+  //       title: 'Google Maps',
+  //       link: '/pages/maps/gmaps',
+  //     },
+  //     {
+  //       title: 'Leaflet Maps',
+  //       link: '/pages/maps/leaflet',
+  //     },
+  //     {
+  //       title: 'Bubble Maps',
+  //       link: '/pages/maps/bubble',
+  //     },
+  //     {
+  //       title: 'Search Maps',
+  //       link: '/pages/maps/searchmap',
+  //     },
+  //   ],
+  // },
   {
     title: 'Charts',
     icon: 'pie-chart-outline',
